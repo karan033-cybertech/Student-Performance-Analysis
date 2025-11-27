@@ -3,16 +3,16 @@
 Analyze and visualize student performance data to uncover insights about how gender, parental education, lunch type, and test preparation affect student scores in Math, Reading, and Writing.
 This project demonstrates Data Cleaning, Exploratory Data Analysis (EDA), and Visualization using Python.
 
-📁 Project Structure
 Student-Performance-Analysis/
 │
-├── main.py                                # Main analysis script
-├── Expanded_data_with_more_features.csv    # Dataset
-├── README.md                               # Project documentation
-└── images/                                 # Folder for graphs
+├── main.py                                   # Main analysis script
+├── Expanded_data_with_more_features.csv       # Dataset
+├── README.md                                  # Project documentation
+└── images/                                    # Folder for graphs
       ├── gender_distribution.png
       ├── parent_education_heatmap.png
       └── math_score_boxplot.png
+
 
 🧠 Skills Demonstrated
 
