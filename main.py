@@ -10,7 +10,7 @@ import pandas as pd
 # 1. Load Dataset
 # ----------------------------------------------
 # Reading CSV file into a pandas DataFrame
-df = pd.read_csv('c:\\Users\\Ayushi\\OneDrive\\Documents\\Expanded_data_with_more_features.csv')
+df = pd.read_csv('Expanded_data_with_more_features.csv')
 
 # Displaying first 5 rows
 print(df.head())
