@@ -1,77 +1,77 @@
-📊 Student Performance Analysis
+# 📊 Student Performance Analysis
 
-Analyze and visualize student performance data to uncover insights about how gender, parental education, lunch type, and test preparation affect student scores in Math, Reading, and Writing.
-This project demonstrates Data Cleaning, Exploratory Data Analysis (EDA), and Visualization using Python.
+## 📌 Project Overview
+This project analyzes student academic performance to understand how factors such as gender, parental education, lunch type, and test preparation influence scores in Mathematics, Reading, and Writing.
+
+The analysis focuses on data cleaning, exploratory data analysis (EDA), and visualization using Python.
+
+---
+
+## 🗂️ Project Structure
 
 Student-Performance-Analysis/
 │
-├── main.py                                   # Main analysis script
-├── Expanded_data_with_more_features.csv       # Dataset
-├── README.md                                  # Project documentation
-└── images/                                    # Folder for graphs
-      ├── gender_distribution.png
-      ├── parent_education_heatmap.png
-      └── math_score_boxplot.png
+├── main.py                                     # Main analysis script
+├── Expanded_data_with_more_features.csv        # Dataset
+├── README.md                                   # Project documentation
+└── images/                                     # Generated visualizations
+├── gender_distribution.png
+├── parent_education_heatmap.png
+└── math_score_boxplot.png
 
 
-🧠 Skills Demonstrated
+---
 
-Python Programming
+## 🧠 Skills & Tools Used
+- Python Programming
+- Data Analysis using Pandas & NumPy
+- Exploratory Data Analysis (EDA)
+- Data Visualization using Matplotlib & Seaborn
+- Handling Missing Values
+- Insight Generation from Visual Patterns
 
-Data Analysis using Pandas & NumPy
+---
 
-Data Visualization using Matplotlib & Seaborn
+## 📊 Key Visualizations & Analysis
 
-Exploratory Data Analysis (EDA)
+### 1️⃣ Gender Distribution
+Visualizes the count of male and female students to understand dataset composition.
 
-Handling Missing Data
+### 2️⃣ Scores vs Parental Education Level
+A heatmap highlighting the relationship between parental education levels and student performance across subjects.
 
-Generating Insights from Visual Patterns
+### 3️⃣ Math Score Distribution
+A boxplot displaying score distribution, spread, and outliers in Mathematics.
 
-📊 Key Visualizations
-1️⃣ Gender Distribution
+---
 
-Shows the count of male vs female students.
+## 📈 Key Insights
+- Parental education level shows a noticeable impact on student performance.
+- Clear score variations observed across different demographic groups.
+- Presence of outliers in Math scores highlights performance disparities.
+- Visualization helps in understanding score distribution patterns.
 
-2️⃣ Scores vs Parental Education Level
+---
 
-A heatmap showing the impact of parental education on Math, Reading, and Writing scores.
-
-3️⃣ Math Score Boxplot
-
-Displays distribution, spread, and outliers in Math scores.
-
-▶️ How to Run the Project
+## ▶️ How to Run the Project
 1. Install required libraries:
-pip install pandas numpy matplotlib seaborn
-
-2. Ensure the CSV file is in the same folder or update its path inside main.py.
+2. Ensure the dataset is in the same directory as `main.py`.
 3. Run the script:
-python main.py
 
-📈 Insights Gained
 
-Gender-wise participation and score comparisons
+---
 
-Clear impact of parental education level on student scores
+## 🚀 Future Enhancements
+- Build a machine learning model to predict student scores
+- Deploy the analysis using a Streamlit dashboard
+- Add correlation matrix and pair plots
+- Perform feature engineering for deeper insights
 
-Identification of outliers in Math performance
+---
 
-Improved understanding of student performance distribution
+## 👤 Author
+**Karan**  
+BS in Data Science & Applications, IIT Madras  
 
-🚀 Future Improvements
+This project demonstrates beginner-to-intermediate data analysis skills suitable for internships and entry-level data analytics roles.
 
-Build a machine learning model to predict exam scores
-
-Deploy the analysis on Streamlit Dashboard
-
-Add correlation matrix & pair plots
-
-Add feature engineering for deeper insights
-
-👤 Author
-
-Karan
-IIT Madras BS Degree Student
-
-This project showcases beginner-to-intermediate data analysis skills suitable for internships and early data roles.
